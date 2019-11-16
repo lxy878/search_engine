@@ -1,11 +1,9 @@
 // db connection
 const Sequelize = require('sequelize/index');
-
-const seq = new Sequelize('engine_db', 'root', 'open87855522',{
+// setup by database name, admin, password
+const seq = new Sequelize('database_name', 'admin', 'db_password',{
     dialect: 'mysql',
     host: 'localhost'
 });
-
-
 
 module.exports = seq;

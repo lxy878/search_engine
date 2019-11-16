@@ -11,10 +11,10 @@ for users:
 localhost:port
 
 <img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/mainPage.png' width='400' height='300' alt='main page' />
-<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/resultPage.png' width='400' height='300' alt='result page' />
+<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/resultPage.png' width='400' height='250' alt='result page' />
 
 for crawling:
 
 localhost:port/scrap
 
-<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/cralwer.png' width='400' height='300' alt='cralwer page' />
+<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/cralwer.png' width='400' height='200' alt='cralwer page' />

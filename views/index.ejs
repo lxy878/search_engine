@@ -1,0 +1,27 @@
+<%- include('./includes/head.ejs')%>
+
+<body>
+  <div class="wrapper indexPage">
+
+    <div class="mainSection">
+
+      <div class="imageContainer">
+        <img src="/image/image.png" alt="NotGoogle">
+      </div>
+
+      <div class="searchContainer">
+        <!--get value and send to search page-->
+        <form action="/results" method="GET">
+          <input type="hidden" name="page" value="1">
+          <input id="searchArea" type="text" name="searchFor" placeholder="Type Something Here">
+          <input id="button" type="submit" value="Search">
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "se_server",
+  "version": "1.0.0",
+  "description": "Search Engine Server-side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Xiaoyi Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.21.2"
+  }
+}

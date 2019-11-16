@@ -1,0 +1,70 @@
+<%- include('./includes/head.ejs') %>
+
+<body>
+  <div class="wrapper">
+    <div class="headerContainer">
+      <div class="content">
+        <div class="imageContainer">
+          <a href="/"><img src="image/image.png" alt="NotGoogle"></a>
+        </div>
+        <div class="searchContainer">
+          <form action="/results" method="GET">
+            <input type="hidden" name='page' value="1">
+            <input id="searchArea" name="searchFor" value="<%=searchTerm%>">
+            <input id="searchButton" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="resultContainer">
+      <p id='count'>About <%=numResults%> results</p>
+      <div class='detailContainer'>
+        <% if(startIndex<endIndex) {%>
+          <% for(let i=startIndex; i<endIndex; i++) {%>
+            <div class='site'>
+              <h3 class='title'><a
+                  href="<%=results[i].url%>"><%=results[i].title.length>55? results[i].title.substr(0,55)+'...': results[i].title%></a>
+              </h3>
+              <span class='url'><%=results[i].url.length>55? results[i].url.substr(0,55)+'...': results[i].url%></span>
+              <span
+                class='descritpion'><%=results[i].description.length>300? results[i].description.substr(0,300)+'...': results[i].description%></span>
+            </div>
+          <%}%>
+        <%} else {%>
+          <p>No Page is Found.</p>
+        <% } %>
+      </div>
+    </div>
+  </div>
+  <div class="pageContainer">
+    <div class="pageButtons">
+
+      <div class="pageNum">
+        <img src="/image/start.png">
+      </div>
+
+      <% for(let i=startIcon; i<=endIcon; i++){%>
+      <% if(i != npage){%>
+      <div class="pageNum">
+        <a href="/results?page=<%=i%>&searchFor=<%=searchTerm%>">
+          <img src="image/page.png">
+          <span class="npage"><%=i%></span>
+        </a>
+      </div>
+      <%} else {%>
+      <div class="pageNum">
+        <img src="image/select.png">
+        <span class="npage"><%=i%></span>
+      </div>
+      <%}%>
+        <%}%>
+      <div class="pageNum">
+        <img src="/image/end.png">
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

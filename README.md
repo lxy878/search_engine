@@ -7,7 +7,14 @@ This website is a google-like search engine. The front-end framework is followed
 Note: This website is only tested on the local host and it requires mysql run in the system.
 
 for users:
+
 localhost:port
 
+<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/mainPage.png' width='400' height='300' alt='main page' />
+<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/resultPage.png' width='400' height='300' alt='result page' />
+
 for crawling:
+
 localhost:port/scrap
+
+<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/cralwer.png' width='400' height='300' alt='cralwer page' />

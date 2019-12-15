@@ -13,10 +13,10 @@ Tje webiste works two features, which one is searching a item from persitence da
 Programming Language include:  HTML, CSS, JavaScript and Nodejs: express, ejs, sequelize and cheerio
 
 - incorporate the ejs template with html as client-side by implementing **ejs** package on npm
-- build server routes to handle diverse commucations, like searching or crowling, by implememting express
+- build server routes to handle diverse communications, like searching or crawling, by implementing express
 - establish the connection of the server and the MySQL database with **sequelize** package.
-- crowl the data from the given url and recurisivly visit urls found from the visiting page.
-- store found data into the database by implementing **sequelize**.
+- crawl the data from the given url and recursively visit urls found from the visiting page.
+- store the found data into the database by implementing **sequelize**.
 
 
 ## Test:

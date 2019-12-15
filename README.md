@@ -8,7 +8,7 @@ After I completed the college courses "Database Systems" and "Internet and Web T
 
 ## Process:
 
-Tje webiste works two features, which one is searching a item from persitence database and another is continuously crowling information from websites.
+The webiste works two features, which one is searching a item from persitence database and another is continuously crowling information from websites.
 
 Programming Language include:  HTML, CSS, JavaScript and Nodejs: express, ejs, sequelize and cheerio
 

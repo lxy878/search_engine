@@ -1,17 +1,22 @@
 # Search Engine
 
-## Overview:
-
-Programming Languages: HTML, CSS, JS and Nodejs: express, ejs, mysql2, sequelize and ....
-
-This website is a google-like search engine. The front-end framework is followed by the design principle of KISS and it is developed by using HTML, CSS, and ejs.  The back-end framework is developed for the navigation of handling client-side requests and server-side responses. One main feature is allowing users to enter a string and then showing a list of results. Another feature is allowing admin to scrap details from websites to the local database.
-
 ## Purpose:
 
+The Curiosity on the interaction among client-side, server-side and database.
 
+After I completed the college courses "database" and "internet", I started wondering how websites work through client-side, server-side and database. So, I brought an online course "Make a Google search engine: Javascript PHP and Mysql" on Udemy. I was built a google-like search engine by following the course videos. However, I was unsatisfied with using PHP as a server, so I concerned to switch other server-side programming languages. After several comparisons among modern languages like Ruby, I eventually chose Nodejs as server-side. So, I brought anther course "Nodejs: The complete guide" on Udemy and I learned using **npm** packages to build a server. After the course, I attempted to restructure the website by replacing PHP with Nodejs. Now, this website project works successfully like the original one, but it was running on a Nodejs server.
 
 ## Process:
 
+Tje webiste works two features, which one is searching a item from persitence database and another is continuously crowling information from websites.
+
+Programming Language include:  HTML, CSS, JavaScript and Nodejs: express, ejs, sequelize and cheerio
+
+- incorporate the ejs template with html as client-side by implementing **ejs** package on npm
+- build server routes to handle diverse commucations, like searching or crowling, by implememting express
+- establish the connection of the server and the MySQL database with **sequelize** package.
+- crowl the data from the given url and recurisivly visit urls found from the visiting page.
+- store found data into the database by implementing **sequelize**.
 
 
 ## Test:

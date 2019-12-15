@@ -15,7 +15,7 @@ Programming Language include:  HTML, CSS, JavaScript and Nodejs: express, ejs, s
 - incorporate the ejs template with html as client-side by implementing **ejs** package.
 - build server routes to handle diverse communications, like searching or crawling, by implementing **express**.
 - establish the connection of the server and the MySQL database with **sequelize** package.
-- crawl the data from the given url and recursively visit urls found from the visiting page by implementing "cheerio".
+- crawl the data from the given url and recursively visit urls found from the visiting page by implementing **cheerio**.
 - store the found data into the database by implementing **sequelize**.
 
 

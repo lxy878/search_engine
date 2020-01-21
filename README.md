@@ -8,7 +8,7 @@ Note: This website is only tested on the local host and it requires mysql run in
 
 **for crawling:** localhost:port/scrap
 
-<img src='https://github.com/lxy878/search_engine/blob/master/SEDemo.gif' title='Video Walkthrough' width='400' height='300' alt='Demo' />
+<img src='https://github.com/lxy878/search_engine/blob/master/SEDemo.gif' title='Video Walkthrough' width='600' height='300' alt='Demo' />
 
 ## Purpose:
 

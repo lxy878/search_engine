@@ -1,5 +1,15 @@
 # Search Engine
 
+## Test Demo:
+
+Note: This website is only tested on the local host and it requires mysql run in the system.
+
+**for users:** localhost:port
+
+**for crawling:** localhost:port/scrap
+
+<img src='' title='Video Walkthrough' width='400' height='300' alt='Demo' />
+
 ## Purpose:
 
 The Curiosity on the interaction among client-side, server-side and database.
@@ -18,16 +28,3 @@ Programming Language include:  HTML, CSS, JavaScript and Nodejs: express, ejs, s
 - crawl the data from the given url and recursively visit urls found from the visiting page by implementing **cheerio**.
 - store the found data into the database by implementing **sequelize**.
 
-
-## Test:
-
-Note: This website is only tested on the local host and it requires mysql run in the system.
-
-**for users:** localhost:port
-
-<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/mainPage.png' width='400' height='300' alt='main page' />
-<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/resultPage.png' width='400' height='250' alt='result page' />
-
-**for crawling:** localhost:port/scrap
-
-<img src='https://github.com/lxy878/search_engine/blob/master/showcase_img/cralwer.png' width='400' height='200' alt='cralwer page' />

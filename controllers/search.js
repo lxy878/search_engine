@@ -24,7 +24,7 @@ exports.getResults = (req, res, next) => {
         const totalResults = urls.length;
         const totalPages = Math.ceil(totalResults/maxResults);
         // provide invalid inputs in query
-        if((currentPage<1) || (currentPage > totalPages)){
+        if((currentPage<1) || (currentPage > totalPages && totalPages !=0)){
             res.redirect('/inputerror');
             return;
         }
